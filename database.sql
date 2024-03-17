@@ -117,5 +117,5 @@ SELECT * FROM dokter WHERE alamat = 'Sleman';
 # 14 Edit harga kelas VIP
 UPDATE kelas_kamar SET harga_permalam = 500000 WHERE kode_kelas = '1';
 
-# 15 Urutkan kamar berdasarkan harga Ekonomo ke VVIP
+# 15 Urutkan kamar berdasarkan harga Ekonomi ke VVIP
 SELECT * FROM kamar ORDER BY kode_kelas DESC;
